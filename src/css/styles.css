@@ -34,10 +34,14 @@ main {
 h1 {
   text-align: center;
   font-size: var(--h1);
+  line-height: 1;
+  margin: 0 0 1rem;
 }
 
 .gallery-search {
-  margin: 0 0 2rem;
+  border-bottom: 0.125rem solid var(--space-cadet);
+  padding: 0 0 1rem;
+  margin: 0 0 1rem;
 }
 
 .gallery-search-input {

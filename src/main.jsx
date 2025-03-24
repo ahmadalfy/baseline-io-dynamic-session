@@ -12,7 +12,7 @@ import images from "./js/images.js";
 createRoot(document.querySelector("main")).render(
   <StrictMode>
     <h1>
-      JWST Gallery
+      JWST image gallery
     </h1>
     <form className="gallery-search">
       <input
@@ -30,7 +30,7 @@ createRoot(document.querySelector("main")).render(
             <li className="gallery-item" key={item.name}>
               <a className="gallery-item-link" href={item.link} target="_blank">
                 <img
-                  src={item.imgFull}
+                  src={item.img}
                   alt={item.name}
                 />
               </a>
