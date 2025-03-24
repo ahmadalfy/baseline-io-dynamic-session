@@ -19,6 +19,10 @@ import img017 from "../img/017.jpg";
 import img018 from "../img/018.jpg";
 import img019 from "../img/019.jpg";
 import img020 from "../img/020.jpg";
+import img021 from "../img/021.jpg";
+import img022 from "../img/022.jpg";
+import img023 from "../img/023.jpg";
+import img024 from "../img/024.jpg";
 
 export default [
   {
@@ -178,6 +182,38 @@ export default [
     img: img020,
     credit: "X-ray: NASA/CXC/MIT/C. Canizares; IR: NASA/ESA/CSA/STScI/K. Pontoppidan; Image Processing: NASA/ESA/STScI/Alyssa Pagan, NASA/CXC/SAO/L. Frattare and J. Major",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53849910476/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Galaxy cluster SPT-CL J0615−5746",
+    img: img021,
+    credit: "ESA/Webb, NASA & CSA, L. Bradley (STScI), A. Adamo (Stockholm University) and the Cosmic Spring collaboration",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53820174319/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Serpens Nebula",
+    img: img022,
+    credit: "NASA, ESA, CSA, STScI, Klaus Pontoppidan (NASA-JPL), Joel Green (STScI)",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53804051336/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Crab Nebula",
+    img: img023,
+    credit: "NASA, ESA, CSA, STScI, Tea Temim (Princeton University)",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53797673729/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "NGC 6440",
+    img: img024,
+    credit: "ESA/Webb, NASA & CSA, P. Freire; Acknowledgement: M. Cadelano and C. Pallanca",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53691677609/in/photostream/",
     license: "CC BY 2.0",
     licenseLink: "https://creativecommons.org/licenses/by/2.0/"
   }
