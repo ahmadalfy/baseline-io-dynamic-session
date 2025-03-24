@@ -4,6 +4,7 @@
 
   /* Colors */
   --space-cadet: #1c1f33;
+  --space-cadet-trans: #1c1f33aa;
   --ghost-white: #e6e8ef;
   --glaucous: #7389ae;
 
@@ -60,12 +61,16 @@ h1 {
   outline: 0.25rem solid var(--glaucous);
 }
 
+.gallery-search-input::placeholder {
+  color: var(--space-cadet-trans);
+}
+
 .jwst-gallery {
   display: grid;
   grid-gap: 1rem;
   margin: 0 0 2rem;
   padding: 0;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   grid-template-rows: auto;
 }
 
