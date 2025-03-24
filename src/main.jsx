@@ -25,9 +25,9 @@ createRoot(document.querySelector("main")).render(
     </form>
     <ul className="jwst-gallery">
       {
-        images.map((item) => {
+        images.map((item, index) => {
           return (
-            <li className="gallery-item" key={item.name}>
+            <li className="gallery-item" key={index}>
               <a className="gallery-item-link" href={item.link} target="_blank">
                 <img
                   src={item.img}
@@ -39,6 +39,9 @@ createRoot(document.querySelector("main")).render(
               </h3>
               <p className="gallery-item-credit">
                 {item.credit}
+              </p>
+              <p className="gallery-item-license">
+                <a href={item.licenseLink} target="_blank">{item.license}</a>
               </p>
             </li>
           );

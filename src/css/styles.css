@@ -66,14 +66,14 @@ h1 {
   margin: 0 0 2rem;
   padding: 0;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-rows: auto;
 }
 
 .gallery-item {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: start;
+  display: grid;
+  grid-template-rows: auto;
   overflow: hidden;
-  align-items: center;
+  align-items: start;
   border: 0.125rem solid var(--space-cadet);
   border-radius: 0.375rem;
   background: var(--space-cadet);
@@ -103,6 +103,19 @@ h1 {
   text-align: center;
   margin: 0;
   color: var(--ghost-white);
+}
+
+.gallery-item-license {
+  font-size: var(--tiny);
+  text-align: center;
+  margin: 0;
+  color: var(--ghost-white);
+}
+
+.gallery-item-license a {
+  color: var(--ghost-white);
+  text-decoration-color: var(--ghost-white);
+  text-decoration-skip-ink: auto;
 }
 
 footer p {
