@@ -13,6 +13,12 @@ import img011 from "../img/011.jpg";
 import img012 from "../img/012.jpg";
 import img013 from "../img/013.jpg";
 import img014 from "../img/014.jpg";
+import img015 from "../img/015.jpg";
+import img016 from "../img/016.jpg";
+import img017 from "../img/017.jpg";
+import img018 from "../img/018.jpg";
+import img019 from "../img/019.jpg";
+import img020 from "../img/020.jpg";
 
 export default [
   {
@@ -124,6 +130,54 @@ export default [
     img: img014,
     credit: "ESA/Webb, NASA & CSA, A. Scholz, K. Muzic, A. Langeveld, R. Jayawardhana",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53951942710/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Messier 106",
+    img: img015,
+    credit: "ESA/Webb, NASA & CSA, J. Glenn",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53912178488/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Arp 142",
+    img: img016,
+    credit: "NASA, ESA, CSA, STScI",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53851864526/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "MACS J0416",
+    img: img017,
+    credit: "NASA/CXC/SAO/G. Ogrean et al.; Optical/Infrared: (Hubble) NASA/ESA/STScI; IR: (JWST) NASA/ESA/CSA/STScI/Jose M. Diego (IFCA), Jordan C. J. D'Silva (UWA), Anton M. Koekemoer (STScI), Jake Summers (ASU), Rogier Windhorst (ASU), Haojing Yan (University of Missouri)",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53849045752/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "NGC 3627",
+    img: img018,
+    credit: "NASA/CXC/SAO; Optical: NASA/ESO/STScI, ESO/WFI; Infrared: NASA/ESA/CSA/STScI/JWST; Image Processing: NASA/CXC/SAO/J. Major",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53850188868/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Orion Nebula Composite",
+    img: img019,
+    credit: "X-ray: NASA/CXC/SAO/E. Feigelson; IR: NASA/ESA/CSA/STScI; Image Processing: NASA/CXC/SAO/L. Frattare and J. Major",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53849921521/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Rho Ophiuchi Composite",
+    img: img020,
+    credit: "X-ray: NASA/CXC/MIT/C. Canizares; IR: NASA/ESA/CSA/STScI/K. Pontoppidan; Image Processing: NASA/ESA/STScI/Alyssa Pagan, NASA/CXC/SAO/L. Frattare and J. Major",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53849910476/in/photostream/",
     license: "CC BY 2.0",
     licenseLink: "https://creativecommons.org/licenses/by/2.0/"
   }

@@ -32,6 +32,8 @@ createRoot(document.querySelector("main")).render(
                 <img
                   src={item.img}
                   alt={item.name}
+                  width="1024"
+                  height="1024"
                 />
               </a>
               <h3 className="gallery-item-name">
