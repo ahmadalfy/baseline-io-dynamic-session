@@ -71,14 +71,12 @@ h1 {
   margin: 0 0 2rem;
   padding: 0;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  grid-template-rows: auto;
 }
 
 .gallery-item {
-  display: grid;
-  grid-template-rows: auto;
+  display: subgrid;
   overflow: hidden;
-  align-items: start;
+/*  align-items: start;*/
   border: 0.125rem solid var(--space-cadet);
   border-radius: 0.375rem;
   background: var(--space-cadet);

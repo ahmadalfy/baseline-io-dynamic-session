@@ -23,6 +23,12 @@ import img021 from "../img/021.jpg";
 import img022 from "../img/022.jpg";
 import img023 from "../img/023.jpg";
 import img024 from "../img/024.jpg";
+import img025 from "../img/025.jpg";
+import img026 from "../img/026.jpg";
+import img027 from "../img/027.jpg";
+import img028 from "../img/028.jpg";
+import img029 from "../img/029.jpg";
+import img030 from "../img/030.jpg";
 
 export default [
   {
@@ -214,6 +220,54 @@ export default [
     img: img024,
     credit: "ESA/Webb, NASA & CSA, P. Freire; Acknowledgement: M. Cadelano and C. Pallanca",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53691677609/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "RX J2129 (Encaustic)",
+    img: img025,
+    credit: "Holly Streekstra",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53987938703/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Top of Horsehead Nebula",
+    img: img026,
+    credit: "NASA, ESA, CSA, Karl Misselt (University of Arizona), Alain Abergel (AIM Paris-Saclay)",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53686360156/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "RX J2129 (Photogram)",
+    img: img027,
+    credit: "Holly Streekstra",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53988134340/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "I Zwicky 18",
+    img: img028,
+    credit: "ESA/Webb, NASA, CSA, A. Hirschauer, M. Meixner et al.",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53612916394/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "NGC 604",
+    img: img029,
+    credit: "NASA, ESA, CSA, STScI",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53577720515/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "NGC 604",
+    img: img030,
+    credit: "ESA/Webb, NASA & CSA, A. Leroy, J. Lee and the PHANGS Team",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53554927627/in/photostream/",
     license: "CC BY 2.0",
     licenseLink: "https://creativecommons.org/licenses/by/2.0/"
   }

@@ -43,6 +43,8 @@ export default function App () {
                     alt={name}
                     width="1024"
                     height="1024"
+                    loading={index > 5 ? "lazy" : "auto"}
+                    fetchpriority={index > 2 ? "auto" : "high"}
                   />
                 </a>
                 <h3 className="gallery-item-name">
