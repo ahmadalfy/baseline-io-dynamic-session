@@ -53,7 +53,7 @@ export default [
       "css/no-duplicate-imports": "error",
       // Lint CSS files to ensure they are using
       // only Baseline Widely available features:
-      "css/require-baseline": ["warn", {
+      "css/use-baseline": ["warn", {
         available: "widely"
       }]
     },

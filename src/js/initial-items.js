@@ -29,8 +29,13 @@ import img027 from "../img/027.jpg";
 import img028 from "../img/028.jpg";
 import img029 from "../img/029.jpg";
 import img030 from "../img/030.jpg";
+import img031 from "../img/031.jpg";
+import img032 from "../img/032.jpg";
+import img033 from "../img/033.jpg";
+import img034 from "../img/034.jpg";
+import img035 from "../img/035.jpg";
 
-export default [
+const initialItems = [
   {
     name: "Phoenix Galaxy Cluster",
     img: img001,
@@ -264,11 +269,53 @@ export default [
     licenseLink: "https://creativecommons.org/licenses/by/2.0/"
   },
   {
-    name: "NGC 604",
+    name: "NGC 1559",
     img: img030,
     credit: "ESA/Webb, NASA & CSA, A. Leroy, J. Lee and the PHANGS Team",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53554927627/in/photostream/",
     license: "CC BY 2.0",
     licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "NGC 4303",
+    img: img031,
+    credit: "NASA, ESA, CSA, ESO, STScI, Janice Lee (STScI), Thomas Williams (Oxford), PHANGS Team",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53518229247/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "NGC 4535",
+    img: img032,
+    credit: "NASA, ESA, CSA, STScI, Janice Lee (STScI), Thomas Williams (Oxford), PHANGS Team",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53519420679/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "IC 5332",
+    img: img033,
+    credit: "NASA, ESA, CSA, STScI, Janice Lee (STScI), Thomas Williams (Oxford), Rupali Chandar (UToledo), PHANGS Team",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53519198229/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "NGC 346",
+    img: img034,
+    credit: "NASA, ESA, CSA, STScI, Nolan Habel (NASA-JPL). Image Processing: Patrick Kavanagh (Maynooth University)",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53248658934/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+  },
+  {
+    name: "Arp 220",
+    img: img035,
+    credit: "NASA, ESA, CSA, STScI with image processing by Alyssa Pagan (STScI)",
+    link: "https://www.flickr.com/photos/nasawebbtelescope/53222195326/in/photostream/",
+    license: "CC BY 2.0",
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
   }
 ];
+
+export default initialItems;

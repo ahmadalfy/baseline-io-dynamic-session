@@ -1,21 +1,37 @@
 // React stuff
-import { StrictMode, useState } from "react";
+import React, { StrictMode, useState, useEffect } from "react";
+
+// Custom components
+import { GalleryItem } from "./GalleryItem.jsx";
 
 // Image metadata
-import images from "../js/images.js";
+import initialItems from "../js/initial-items.js";
 
 export default function App () {
-  const [ searchQuery, setSearchQuery ] = useState("");
-  const [ matchingImages, setMatchingImages ] = useState(images);
+  const [ searchTerm, setSearchTerm ] = useState("");
+  const [ filteredItems, setFilteredItems ] = useState();
 
-  function handleSearchQuery (event) {
-    const currentSearchQuery = event.target.value;
-
-    setSearchQuery(currentSearchQuery);
+  function handleSearchTerm (event) {
+    setSearchTerm(event.target.value);
   }
 
-  function handleMatchingImages () {
-  }
+  useEffect(() => {
+    let filteredData;
+
+    if (searchTerm.length === 0) {
+      filteredData = initialItems;
+    } else {
+      filteredData = initialItems.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase()));
+    }
+
+    const results = filteredData.map(({ name, link, img, credit, licenseLink, license }, index) => {
+      return (
+        <GalleryItem name={name} link={link} img={img} key={index} credit={credit} licenseLink={licenseLink} license={license} />
+      );
+    });
+
+    setFilteredItems(results);
+  }, [ searchTerm, initialItems ]);
 
   return (
     <StrictMode>
@@ -26,40 +42,15 @@ export default function App () {
         <input
           className="gallery-search-input"
           id="gallery-search"
-          type="search"
+          type="text"
           name="gallery-search"
+          value={searchTerm}
           placeholder="Search for JWST images..."
-          onChange={handleSearchQuery}
+          onChange={handleSearchTerm}
         />
       </form>
       <ul className="jwst-gallery">
-        {
-          images.map(({ name, link, img, credit, licenseLink, license }, index) => {
-            return (
-              <li className="gallery-item" key={name}>
-                <a className="gallery-item-link" href={link} target="_blank">
-                  <img
-                    src={img}
-                    alt={name}
-                    width="1024"
-                    height="1024"
-                    loading={index > 5 ? "lazy" : "auto"}
-                    fetchpriority={index > 2 ? "auto" : "high"}
-                  />
-                </a>
-                <h3 className="gallery-item-name">
-                  {name}
-                </h3>
-                <p className="gallery-item-credit">
-                  {credit}
-                </p>
-                <p className="gallery-item-license">
-                  <a href={licenseLink} target="_blank">{license}</a>
-                </p>
-              </li>
-            );
-          })
-        }
+        {filteredItems}
       </ul>
       <footer>
         <p>&copy; 2025 — All rights reserved by creators and contributors where shown.</p>
