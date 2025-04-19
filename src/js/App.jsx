@@ -24,9 +24,9 @@ export default function App () {
       filteredData = initialItems.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase()));
     }
 
-    const results = filteredData.map(({ name, link, img, credit, licenseLink, license }, index) => {
+    const results = filteredData.map(({ name, link, img, credit, licenseLink, license, duration }, index) => {
       return (
-        <GalleryItem name={name} link={link} img={img} key={index} credit={credit} licenseLink={licenseLink} license={license} />
+        <GalleryItem name={name} link={link} img={img} key={index} credit={credit} licenseLink={licenseLink} license={license} duration={duration} />
       );
     });
 

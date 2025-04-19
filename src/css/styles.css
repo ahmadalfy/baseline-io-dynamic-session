@@ -98,7 +98,8 @@ h1 {
 
 .gallery-item-name,
 .gallery-item-credit,
-.gallery-item-license {
+.gallery-item-license,
+.gallery-item-posted {
   padding: 0 0.5rem;
   margin: 0;
   text-align: center;
@@ -114,7 +115,8 @@ h1 {
   font-size: var(--p);
 }
 
-.gallery-item-license {
+.gallery-item-license,
+.gallery-item-posted {
   font-size: var(--tiny);
 }
 

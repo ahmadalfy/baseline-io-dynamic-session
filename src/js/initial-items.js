@@ -42,7 +42,11 @@ const initialItems = [
     credit: "NASA, CXC, NRAO, ESA, Michael McDonald (MIT)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54324515037/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 8,
+      hours: 4
+    }
   },
   {
     name: "Leo P",
@@ -50,7 +54,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, Kristen McQuinn (STScI)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54319737603/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 9,
+      hours: 14
+    }
   },
   {
     name: "Dust in the (stellar) wind",
@@ -58,7 +66,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, Tazaki et al.",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54306594896/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 4,
+      hours: 1
+    }
   },
   {
     name: "NGC 602",
@@ -66,7 +78,11 @@ const initialItems = [
     credit: "X-ray: NASA/CXC; Infrared: ESA/Webb, NASA & CSA, P. Zeilder, E.Sabbi, A. Nota, M. Zamani; Image Processing: NASA/CXC/SAO/L. Frattare and K. Arcand",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54213487373/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 11,
+      hours: 16
+    }
   },
   {
     name: "NGC 2566",
@@ -74,7 +90,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, A. Leroy",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54213026331/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 9,
+      hours: 6
+    }
   },
   {
     name: "Spiderweb protocluster",
@@ -82,7 +102,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, H. Dannerbauer",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54183500660/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 7,
+      hours: 7
+    }
   },
   {
     name: "NGC 2090",
@@ -90,7 +114,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, A. Leroy",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54167157727/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 3,
+      hours: 14
+    }
   },
   {
     name: "IC 2163 and NGC 2207",
@@ -98,7 +126,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54107470055/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 5,
+      hours: 2
+    }
   },
   {
     name: "M74",
@@ -106,7 +138,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, A. Adamo (Stockholm University) and the FEAST JWST team",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54102426319/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 13,
+      hours: 3
+    }
   },
   {
     name: "Arp 107",
@@ -114,7 +150,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI",
     link: "https://www.flickr.com/photos/nasawebbtelescope/54003266552/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 9,
+      hours: 8
+    }
   },
   {
     name: "Digel Clouds",
@@ -122,7 +162,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Michael Ressler (NASA-JPL)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53989782746/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 17,
+      hours: 23
+    }
   },
   {
     name: "MACS-J0417.5-1154 cluster",
@@ -130,7 +174,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Vicente Estrada-Carpenter (Saint Mary's University)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53970855226/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 13,
+      hours: 1
+    }
   },
   {
     name: "Cosmic question mark",
@@ -138,7 +186,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Vicente Estrada-Carpenter (Saint Mary's University)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53971042139/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 19,
+      hours: 12
+    }
   },
   {
     name: "Perseus (NGC 1333)",
@@ -146,7 +198,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, A. Scholz, K. Muzic, A. Langeveld, R. Jayawardhana",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53951942710/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 11,
+      hours: 16
+    }
   },
   {
     name: "Messier 106",
@@ -154,7 +210,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, J. Glenn",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53912178488/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 9,
+      hours: 4
+    }
   },
   {
     name: "Arp 142",
@@ -162,7 +222,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53851864526/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 11,
+      hours: 3
+    }
   },
   {
     name: "MACS J0416",
@@ -170,7 +234,11 @@ const initialItems = [
     credit: "NASA/CXC/SAO/G. Ogrean et al.; Optical/Infrared: (Hubble) NASA/ESA/STScI; IR: (JWST) NASA/ESA/CSA/STScI/Jose M. Diego (IFCA), Jordan C. J. D'Silva (UWA), Anton M. Koekemoer (STScI), Jake Summers (ASU), Rogier Windhorst (ASU), Haojing Yan (University of Missouri)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53849045752/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 5,
+      hours: 3
+    }
   },
   {
     name: "NGC 3627",
@@ -178,7 +246,11 @@ const initialItems = [
     credit: "NASA/CXC/SAO; Optical: NASA/ESO/STScI, ESO/WFI; Infrared: NASA/ESA/CSA/STScI/JWST; Image Processing: NASA/CXC/SAO/J. Major",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53850188868/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 15,
+      hours: 17
+    }
   },
   {
     name: "Orion Nebula Composite",
@@ -186,7 +258,11 @@ const initialItems = [
     credit: "X-ray: NASA/CXC/SAO/E. Feigelson; IR: NASA/ESA/CSA/STScI; Image Processing: NASA/CXC/SAO/L. Frattare and J. Major",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53849921521/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 19,
+      hours: 22
+    }
   },
   {
     name: "Rho Ophiuchi Composite",
@@ -194,7 +270,11 @@ const initialItems = [
     credit: "X-ray: NASA/CXC/MIT/C. Canizares; IR: NASA/ESA/CSA/STScI/K. Pontoppidan; Image Processing: NASA/ESA/STScI/Alyssa Pagan, NASA/CXC/SAO/L. Frattare and J. Major",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53849910476/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 16,
+      hours: 17
+    }
   },
   {
     name: "Galaxy cluster SPT-CL J0615−5746",
@@ -202,7 +282,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, L. Bradley (STScI), A. Adamo (Stockholm University) and the Cosmic Spring collaboration",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53820174319/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 23,
+      hours: 22
+    }
   },
   {
     name: "Serpens Nebula",
@@ -210,7 +294,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Klaus Pontoppidan (NASA-JPL), Joel Green (STScI)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53804051336/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 19,
+      hours: 15
+    }
   },
   {
     name: "Crab Nebula",
@@ -218,7 +306,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Tea Temim (Princeton University)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53797673729/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 17,
+      hours: 1
+    }
   },
   {
     name: "NGC 6440",
@@ -226,7 +318,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, P. Freire; Acknowledgement: M. Cadelano and C. Pallanca",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53691677609/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 7,
+      hours: 17
+    }
   },
   {
     name: "RX J2129 (Encaustic)",
@@ -234,7 +330,11 @@ const initialItems = [
     credit: "Holly Streekstra",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53987938703/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 4,
+      hours: 13
+    }
   },
   {
     name: "Top of Horsehead Nebula",
@@ -242,7 +342,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, Karl Misselt (University of Arizona), Alain Abergel (AIM Paris-Saclay)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53686360156/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 5,
+      hours: 16
+    }
   },
   {
     name: "RX J2129 (Photogram)",
@@ -250,7 +354,11 @@ const initialItems = [
     credit: "Holly Streekstra",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53988134340/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 15,
+      hours: 21
+    }
   },
   {
     name: "I Zwicky 18",
@@ -258,7 +366,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA, CSA, A. Hirschauer, M. Meixner et al.",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53612916394/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 18,
+      hours: 17
+    }
   },
   {
     name: "NGC 604",
@@ -266,7 +378,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53577720515/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 4,
+      hours: 11
+    }
   },
   {
     name: "NGC 1559",
@@ -274,7 +390,11 @@ const initialItems = [
     credit: "ESA/Webb, NASA & CSA, A. Leroy, J. Lee and the PHANGS Team",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53554927627/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 14,
+      hours: 10
+    }
   },
   {
     name: "NGC 4303",
@@ -282,7 +402,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, ESO, STScI, Janice Lee (STScI), Thomas Williams (Oxford), PHANGS Team",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53518229247/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 15,
+      hours: 22
+    }
   },
   {
     name: "NGC 4535",
@@ -290,7 +414,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Janice Lee (STScI), Thomas Williams (Oxford), PHANGS Team",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53519420679/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 6,
+      hours: 15
+    }
   },
   {
     name: "IC 5332",
@@ -298,7 +426,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Janice Lee (STScI), Thomas Williams (Oxford), Rupali Chandar (UToledo), PHANGS Team",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53519198229/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 10,
+      hours: 17
+    }
   },
   {
     name: "NGC 346",
@@ -306,7 +438,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI, Nolan Habel (NASA-JPL). Image Processing: Patrick Kavanagh (Maynooth University)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53248658934/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 19,
+      hours: 10
+    }
   },
   {
     name: "Arp 220",
@@ -314,7 +450,11 @@ const initialItems = [
     credit: "NASA, ESA, CSA, STScI with image processing by Alyssa Pagan (STScI)",
     link: "https://www.flickr.com/photos/nasawebbtelescope/53222195326/in/photostream/",
     license: "CC BY 2.0",
-    licenseLink: "https://creativecommons.org/licenses/by/2.0/"
+    licenseLink: "https://creativecommons.org/licenses/by/2.0/",
+    duration: {
+      days: 22,
+      hours: 17
+    }
   }
 ];
 

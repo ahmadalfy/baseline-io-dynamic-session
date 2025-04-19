@@ -42,7 +42,7 @@ export default [
       ]
     }
   },
-  // Lint css files
+  // Lint CSS files for Baseline:
   {
     files: ["src/css/**/*.css"],
     plugins: {
