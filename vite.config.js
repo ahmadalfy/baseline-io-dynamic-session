@@ -8,9 +8,6 @@ import legacy from "@vitejs/plugin-legacy";
 // PostCSS
 import autoprefixer from "autoprefixer";
 
-// Baseline config
-import { browserslist } from "./package.json";
-
 export default defineConfig({
   assetsInclude: ["**/*.jpg"],
   css: {
@@ -21,10 +18,7 @@ export default defineConfig({
     }
   },
   plugins: [
-    legacy({
-      targets: browserslist,
-      modernTargets: browserslist
-    }),
+    legacy(),
     react()
   ]
 });
