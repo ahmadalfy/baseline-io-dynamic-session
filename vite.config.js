@@ -3,7 +3,6 @@ import { defineConfig } from "vite";
 
 // Vite plugins
 import react from "@vitejs/plugin-react";
-import legacy from "@vitejs/plugin-legacy";
 
 // PostCSS
 import autoprefixer from "autoprefixer";
@@ -18,7 +17,10 @@ export default defineConfig({
     }
   },
   plugins: [
-    legacy(),
-    react()
+    react({
+      babel: {
+        configFile: true
+      }
+    })
   ]
 });
