@@ -5,7 +5,8 @@ export default {
         modules: false,
         useBuiltIns: "usage",
         corejs: "3.41.0",
-        shippedProposals: true
+        shippedProposals: true,
+        debug: true
       }
     ]
   ]
