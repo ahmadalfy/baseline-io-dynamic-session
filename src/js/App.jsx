@@ -22,7 +22,11 @@ export default function App () {
     if (searchTerm.length === 0) {
       filteredData = initialItems;
     } else {
-      filteredData = initialItems.filter(item => item.name.toLowerCase().includes(searchTerm.toLowerCase()));
+      filteredData = initialItems.filter(item => {
+        const lowCaseSearchTerm = searchTerm.toLowerCase();
+
+        return item.name.toLowerCase().includes(lowCaseSearchTerm) || item.credit.toLowerCase().includes(lowCaseSearchTerm);
+      });
     }
 
     const results = filteredData.map(({ name, link, img, credit, licenseLink, license, duration }, index) => {
