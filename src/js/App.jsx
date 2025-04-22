@@ -5,9 +5,10 @@ import React, { StrictMode, useState, useEffect } from "react";
 import { GalleryItem } from "./GalleryItem.jsx";
 
 // Image metadata
-import initialItems from "../js/initial-items.js";
+import images from "./images.js";
 
 export default function App () {
+  const initialItems = images;
   const [ searchTerm, setSearchTerm ] = useState("");
   const [ filteredItems, setFilteredItems ] = useState();
 
