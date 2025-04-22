@@ -4,9 +4,7 @@ export default {
       "@babel/preset-env", {
         modules: false,
         useBuiltIns: "usage",
-        corejs: "3.41.0",
-        shippedProposals: true,
-        debug: true
+        corejs: "3.41.0"
       }
     ]
   ]
