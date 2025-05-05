@@ -46,7 +46,7 @@ export default [
   {
     files: ["src/css/**/*.css"],
     plugins: {
-      css,
+      css
     },
     language: "css/css",
     rules: {
