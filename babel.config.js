@@ -2,7 +2,9 @@ export default {
   presets: [
     [
       "@babel/preset-env", {
-        modules: false
+        modules: false,
+        useBuiltIns: "usage",
+        corejs: "3.42.0"
       }
     ]
   ]
