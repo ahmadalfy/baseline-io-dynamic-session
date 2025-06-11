@@ -1,5 +1,6 @@
 import js from "@eslint/js";
 import css from "@eslint/css";
+import html from "@html-eslint/eslint-plugin";
 import globals from "globals";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
@@ -44,7 +45,7 @@ export default [
   },
   // Lint CSS files for Baseline:
   {
-    files: ["src/css/**/*.css"],
+    files: ["**/*.css"],
     plugins: {
       css
     },
@@ -58,4 +59,16 @@ export default [
       }]
     },
   },
+  // Lint HTML and JSX files for Baseline:
+  {
+    files: ["**/*.html"],
+    ...html.configs["flat/recommended"],
+    rules: {
+      // Lint HTML files to ensure they are using
+      // only Baseline Widely available features:
+      "@html-eslint/use-baseline": ["warn", {
+        available: "widely"
+      }]
+    }
+  }
 ]
