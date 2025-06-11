@@ -43,7 +43,7 @@ export default function App () {
       <h1>
         JWST image gallery
       </h1>
-      <form className="gallery-search" shadowrootmode="open">
+      <form className="gallery-search">
         <input
           className="gallery-search-input"
           id="gallery-search"
