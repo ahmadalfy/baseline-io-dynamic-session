@@ -29,7 +29,17 @@ Baseline Widely available features are those that have been implemented in all m
 
 The Widely available features used in this demo are:
 
-- TODO
+- CSS `@layer` at-rule
+- CSS Grid Layout (`display: grid`)
+- CSS Custom Properties
+- CSS `object-fit` property
+- `::placeholder` pseudo-element
+- CSS `text-decoration-skip-ink` property
+- JavaScript Modules (`import`/`export`)
+- `const` and `let` declarations
+- Arrow functions
+- Destructuring assignment
+- Array methods (`filter`, `map`, `includes`)
 
 ### Newly available
 
@@ -37,7 +47,11 @@ Baseline Newly available features are those that have been implemented in all ma
 
 The Newly available features used in this demo are:
 
-- TODO
+- `loading="lazy"` attribute for images (since 2023-12-19)
+- `Intl.DurationFormat` API for formatting duration objects (since 2025-03-04)
+- CSS `subgrid` (`grid-template-rows: subgrid`) property (since 2023-09-15)
+- `fetchPriority` attribute for images ("high", "auto") (since 2024-10-29)
+- CSS `oklch()` color function for color definitions (since 2023-05-09)
 
 ### Limited availability
 
